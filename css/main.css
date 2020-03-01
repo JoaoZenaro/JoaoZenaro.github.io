@@ -1,3 +1,34 @@
 body{
-    background-color: beige;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #a5a5a5; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(116, 116, 116); 
+  }
+
+p{
+    font-size: 15vh;
+    font-family: 'lato';
+    color: white;
+    transform: translateY(33vh);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+#canv{
+    position: absolute;
+    z-index: -1;
 }
